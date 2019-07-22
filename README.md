@@ -72,6 +72,9 @@ bogus-priv           # Drop the non-routed address spaces.
 dhcp-range=192.168.220.50,192.168.220.150,12h # IP range and lease time 
 ```
 
+### pivpn
+> To change the hostname or IP address, you will need to change /etc/openvpn/easy-rsa/pki/Default.txt and your .ovpn files if you have already generated them.
+
 #### links
 
 running scripts on startup:
